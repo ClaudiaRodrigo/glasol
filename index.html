@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: system-ui, -apple-system, sans-serif;
-      background-color: #FF751D; /* Fondo azul para que resalte el logo blanco */
+      background-color: #FF751D; /* Fondo naranja que has elegido */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -52,16 +52,27 @@
     .btn-review:active {
       background-color: #e5a800;
     }
+
+    /* Botón de Instagram con colores degradados */
+    .btn-insta {
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      color: #ffffff;
+      margin-top: 20px;
+    }
+
+    .btn-insta:active {
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
-<!-- Logo de Glasol con enlace a la web principal -->
+
+  <!-- Logo de Glasol con enlace a la web principal -->
   <a href="https://glasolheladerias.com" target="_blank">
     <img src="logo.png" alt="Logo Glasol" class="brand-logo">
   </a>
 
-
- <!-- Botón 1: La Carta -->
+  <!-- Botón 1: La Carta -->
   <a href="carta-glasol.pdf" class="btn">🍦 Ver Carta</a>
   
   <!-- Botón 2: Alérgenos -->
@@ -69,6 +80,9 @@
 
   <!-- Botón 3: Reseñas -->
   <a href="https://search.google.com/local/writereview?placeid=ChIJ71r8BwBFYA0RCRLXBQT--Vc" class="btn btn-review" target="_blank">⭐ Déjanos una reseña</a>
+
+  <!-- Botón 4: Instagram -->
+  <a href="https://www.instagram.com/glasol_paterna/" class="btn btn-insta" target="_blank">📸 Síguenos en Instagram</a>
 
 </body>
 </html>
