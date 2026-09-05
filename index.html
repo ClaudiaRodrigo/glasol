@@ -53,15 +53,22 @@
       background-color: #e5a800;
     }
 
-    /* Botón de Instagram con colores degradados */
+    /* Botón de Instagram: Forma diferente y más separado */
     .btn-insta {
       background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
       color: #ffffff;
-      margin-top: 20px;
+      margin-top: 45px; /* Mucho más separado del bloque de arriba */
+      border-radius: 50px; /* Forma de píldora (totalmente redondeado) */
+      padding: 12px 25px; /* Un poco más fino */
+      width: 80%; /* Más estrecho que los otros botones */
+      max-width: 280px;
+      border: 2px solid #ffffff; /* Borde blanco para destacar sobre tu fondo naranja */
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Sombra un pelín más marcada */
     }
 
     .btn-insta:active {
       opacity: 0.8;
+      transform: scale(0.98);
     }
   </style>
 </head>
